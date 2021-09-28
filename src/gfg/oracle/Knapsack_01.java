@@ -10,7 +10,7 @@ public class Knapsack_01 {
 
         for (int i = 0; i < size + 1; i++)
             for (int j = 0; j < capacity + 1; j++) {
-                if (i == 0 || j == 0) // since weight allowed in knapsack =0; profit = 0
+                if (i == 0 || j == 0) // since weight allowed in knapsack = 0; profit = 0
                     matrix[i][j] = 0;
 
                 else if (j - weights[i-1] > 0) {

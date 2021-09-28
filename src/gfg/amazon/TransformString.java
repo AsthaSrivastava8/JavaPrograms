@@ -19,6 +19,7 @@ public class TransformString {
             }
             binary = newString;
         }
+        System.out.print(binary);
         System.out.print(binary.charAt(k));
 
     }
